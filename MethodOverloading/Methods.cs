@@ -21,7 +21,7 @@ namespace MethodOverloading
         {
             int sum = x + y;
             if (dollars)
-            {
+            {OverflowException
                 if (sum == 1)
                 {
                     return $"{sum} dollar";
